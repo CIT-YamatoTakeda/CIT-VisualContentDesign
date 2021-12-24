@@ -1,131 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>焼肉 牛工大 公式サイト</title>
-<link href="main.css" rel="stylesheet" type="text/css">
+<title>ビジュアルコンテンツデザイン制作課題</title>
 </head>
 
 <body>
-<header id="top">
-    <div class="textCenter">
-        <img id="logo" src="img/logo.png" alt="焼肉　牛工大">
-    </div>
-    <ul id="nav">
-        <li><a href="#top">トップ</a></li>
-        <li><a href="#menu">メニュー</a></li>
-        <li><a href="#info">当店について</a></li>
+    <ul>
+        <h1>ビジュアルコンテンツデザイン制作課題</h1>
+        <li><a href="kadai01/index.html">課題01（HTMLとCSS）</a></li>
+        <li><a href="kadai02/index.html">課題02（Bootstrap）</a></li>
     </ul>
-</header>
-<div id="video">
-    <video src="img/onikuimages-1129131_h.mp4" controls></video>
-</div>
-<div class="textCenter">
-    <h1>モットー</h1>
-    <p>中途半端なものは提供しません。一流の肉を格安で！</p>
-</div>
-<div id="menu" class="textCenter">
-    <h1>メニュー</h1>
-    <h2>牛肉</h2>
-    <div>
-        <!--工大カルビ-->
-        <label class="button" for="koudaikarubi"><span>工大カルビ</span> </label>
-        <input type="checkbox" id="koudaikarubi" class="popup">
-        <div class="overlay">
-            <div class="window">
-                <label class="close" for="koudaikarubi"></label>
-                <h1>工大カルビ</h1>
-                <p>骨と骨の間の旨味の詰まった部位を丁寧にカット。</p>
-                <img class="menuImg" src="img/koudai_karubi.jpg" alt="工大カルビ">
-            </div>
-        </div>
-        <!--カルビ-->
-        <label class="button" for="karubi"><span>カルビ</span> </label>
-        <input type="checkbox" id="karubi" class="popup">
-        <div class="overlay">
-            <div class="window">
-                <label class="close" for="karubi"></label>
-                <h1>カルビ</h1>
-                <p>牛肉のうまみ、甘味と香りが楽しめます。最も人気のある定番メニューのひとつ。</p>
-                <img class="menuImg" src="img/karubi.jpg" alt="カルビ">
-            </div>
-        </div>
-        <!--ハラミ-->
-        <label class="button" for="harami"><span>ハラミ</span> </label>
-        <input type="checkbox" id="harami" class="popup">
-        <div class="overlay">
-            <div class="window">
-                <label class="close" for="harami"></label>
-                <h1>ハラミ</h1>
-                <p>国民のアイドル！お店一押し。</p>
-                <img class="menuImg" src="img/harami.jpg" alt="ハラミ">
-            </div>
-        </div>
-    </div>
-    <h2>豚肉</h2>
-    <div>
-        <!--トンたん塩-->
-        <label class="button" for="tontansio"><span>トンたん塩</span> </label>
-        <input type="checkbox" id="tontansio" class="popup">
-        <div class="overlay">
-            <div class="window">
-                <label class="close" for="tontansio"></label>
-                <h1>トンたん塩</h1>
-                <p>コリコリ食感を楽しむ。牛タンでなくても満足できます。</p>
-                <img class="menuImg" src="img/buta_tan.jpg" alt="トンたん塩">
-            </div>
-        </div>
-        <!--豚ホルモン-->
-        <label class="button" for="butahorumon"><span>やみつき豚ホルモン</span> </label>
-        <input type="checkbox" id="butahorumon" class="popup">
-        <div class="overlay">
-            <div class="window">
-                <label class="close" for="butahorumon"></label>
-                <h1>やみつき豚ホルモン</h1>
-                <p>この食感クセになる。</p>
-                <img class="menuImg" src="img/buta_horumon.jpg" alt="やみつき豚ホルモン">
-            </div>
-        </div>
-    </div>
-    <h2>鶏肉</h2>
-    <div>
-        <!--ハラミ付きヤゲン-->
-        <label class="button" for="yagen"><span>ハラミ付きヤゲン</span> </label>
-        <input type="checkbox" id="yagen" class="popup">
-        <div class="overlay">
-            <div class="window">
-                <label class="close" for="yagen"></label>
-                <h1>ハラミ付きヤゲン</h1>
-                <p>ジューシーなハラミがついた、コリコリの軟骨。</p>
-                <img class="menuImg" src="img/tori_yagen.jpg" alt="ハラミ付きヤゲン">
-            </div>
-        </div>
-        <!--とりもも-->
-        <label class="button" for="torimomo"><span>とりもも</span> </label>
-        <input type="checkbox" id="torimomo" class="popup">
-        <div class="overlay">
-            <div class="window">
-                <label class="close" for="torimomo"></label>
-                <h1>とりもも</h1>
-                <p>お子様にも人気。やわらかくてジューシー。</p>
-                <img class="menuImg" src="img/tori_momo.jpg" alt="とりもも">
-            </div>
-        </div>
-    </div>
-</div>
-<div id="info" class="textCenter">
-    <h1>当店について</h1>
-    <p>当店は、しちりんを使った本格炭火焼肉店です。</p>
-    <p>炭火焼肉でも煙などの排気には最新鋭の換気システムを導入しています。</p>
-    <p>オーダーは、タッチパネルから行ってください。</p>
-    <p>会計は、キャッシュレス歓迎、キャッシュレスの場合は10%オフ。</p>
-</div>
-<footer id="footer">
-    <p>牛工大 〒000-0000 焼肉市美食町1-2-3</p>
-    <address>
-    <p>000-456-7890</p>
-    <p>info@yakiniku.umai.up</p>
-    </address>
-</footer>
 </body>
 </html>
